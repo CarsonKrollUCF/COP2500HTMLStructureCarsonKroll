@@ -1,0 +1,51 @@
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: dimgray;
+    font-family: Garamond;
+    padding: 10px;
+}
+.main div {
+    background-color: dimgray;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: left;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: white
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: red;
+}
+
+li {
+    color: darkred
+}
+
+.youtube {
+    transition-duration: 0.4s;
+}
+.youtube:hover {
+    background-color: red;
+    color: white;
+}
+
+.portfolio {
+    transition-duration: 0.4s;
+}
+.portfolio:hover {
+    background-color: yellow;
+    color: black;
+}
