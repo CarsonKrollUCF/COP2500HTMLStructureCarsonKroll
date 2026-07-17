@@ -11,27 +11,12 @@
     padding: 10px;
     font-size: 30px;
     text-align: left;
-}
-
-h1 {
-    color: red;
-    text-align: center;
-}
-
-p {
     color: white
 }
-
-h2 {
-    color: red;
-}
-
-h3 {
-    color: red;
-}
-
-li {
-    color: darkred
+.main.evil {
+    background-color: darkred;
+    font-family: Papyrus;
+    color:black
 }
 
 .youtube {
@@ -48,4 +33,31 @@ li {
 .portfolio:hover {
     background-color: yellow;
     color: black;
+}
+
+.interaction {
+    margin-top: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 60px;
+    background: linear-gradient(gray,darkgray);
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.interaction:hover {
+        background: linear-gradient(white,gray);
+        transform: scale(1.05);
+        box-shadow: 0 0 20px white;
+}
+
+.interaction:active {
+    transform: scale(0.98);
 }
