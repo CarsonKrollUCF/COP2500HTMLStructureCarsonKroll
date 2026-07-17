@@ -1,8 +1,8 @@
 const button = document.querySelector(".interaction");
 const main = document.querySelector(".main");
 
-// addEventListener tells the website to wait for a click interaction on a certain aspect, in this case the "interaction" div, and does a certain action based on that interaction,
-// in this case, it swaps the site theme.
+// When the user clicks the "interaction" button, which is displayed as a white button that says "PRESS ME!" at the bottom of the page, and changes the site theme to an "evil" mode,
+// changing the background and font. The event listener waits for the click on that button and then swaps the css theme for the .main class.
 button.addEventListener("click", () => {
     main.classList.toggle("evil");
 });
